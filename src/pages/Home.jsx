@@ -1,10 +1,10 @@
-function Home() {
+import React from 'react'
+
+export default function Home() {
   return (
-    <div className="p-8 text-center">
-      <h1 className="text-4xl font-bold text-blue-600">Welcome to My React App</h1>
-      <p className="mt-4 text-gray-600">Built with Vite + React + Tailwind</p>
+    <div className="bg-red-500 text-white p-10 text-center">
+      If this is red, Tailwind is working.
     </div>
   )
 }
 
-export default Home
