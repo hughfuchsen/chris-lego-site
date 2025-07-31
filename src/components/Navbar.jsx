@@ -3,8 +3,12 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
-    <nav className="bg-white shadow px-4 py-2 flex justify-between items-center">
-      <Link to="/" className="text-xl font-bold text-red-600">DEPARTMENT OF NOTHING</Link>
+    <nav className="bg-white shadow px-4 py-2">
+      <div className="max-w-6xl mx-auto flex justify-end items-center">
+        <Link to="/" className="text-xl font-bold text-600">
+          CHRIS LEGO
+        </Link>
+      </div>
     </nav>
   )
 }
